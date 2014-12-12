@@ -1,0 +1,70 @@
+#content
+  .link
+    a
+      background-color: $uu-geel
+      display: inline-block
+      font-size: 15px
+      font-weight: bold
+      line-height: 42px
+      padding: 0 0 0 19px
+      position: relative
+      text-transform: uppercase
+      font-family: $sans
+      color: #000
+      text-decoration: none
+      &:hover
+        color: #000
+      &:after
+        content: ""
+        font-size: 0.9em
+        text-align: center
+        margin-left: 19px
+        position: relative
+        z-index: 15
+        font-family: "icomoon"
+        display: inline-block
+        width: 40px
+        height: 100%
+      &:hover:after
+        background-color: #000
+        color: #ffcd00
+  .link.terug
+    a
+      background-color: $uu-geel
+      display: inline-block
+      font-size: 15px
+      font-weight: bold
+      line-height: 42px
+      padding: 0 19px 0 0
+      position: relative
+      text-transform: uppercase
+      font-family: $sans
+      color: #000
+      text-decoration: none
+      &:hover
+        color: #000
+      &:before
+        content: ""
+        font-size: 0.9em
+        text-align: center
+        margin-right: 19px
+        position: relative
+        z-index: 15
+        font-family: "icomoon"
+        display: inline-block
+        width: 40px
+        height: 100%
+      &:hover:before
+        background-color: #000
+        color: #ffcd00
+      &:after
+        content: ""
+        margin: 0
+        padding: 0
+
+.toggle-btn
+  margin: 15px
+  width: 32px
+  height: 32px
+  display: block
+

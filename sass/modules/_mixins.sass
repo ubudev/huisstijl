@@ -1,0 +1,10 @@
+@mixin breakpoint($point)
+  @if $point == md
+    @media (max-width: $screen-md)
+      @content
+  @else if $point == sm
+    @media (max-width: $screen-sm)
+      @content
+  @else if $point == xs
+    @media (max-width: $screen-xs)
+      @content

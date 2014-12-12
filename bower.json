@@ -1,0 +1,22 @@
+{
+  "name": "huisstijl",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ubudev/huisstijl",
+  "authors": [
+    "frubini"
+  ],
+  "description": "UU Web huis style",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "sass/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.scss": "~3.0.2+normalize.3.0.2"
+  }
+}
