@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "normalize.scss": "~3.0.2+normalize.3.0.2"
+    "normalize.scss": "~3.0.2+normalize.3.0.2",
+    "bootstrap-sass-official": "~3.3.1"
   }
 }

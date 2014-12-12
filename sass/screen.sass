@@ -3,11 +3,18 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
-@import vendor/normalize
+
+@import compass
+// Normalize is already included in bootstrap
+//@import vendor/normalize
+
+@import modules/bootstrap-custom
 
 @import modules/variables
 @import modules/mixins
 
+
+@import partials/typography
 @import partials/brandbar
 @import partials/buttons
 @import partials/header
