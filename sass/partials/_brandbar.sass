@@ -1,17 +1,32 @@
-#brandbar
+$branbar-unit: 30px
+
+#uu-brandbar
   background: #FFFFFF
   border-bottom: 1px solid #EFEFEF
-  height: 66px
+  height: $branbar-unit * 3
   overflow: hidden
-  +breakpoint(sm)
-    height: 50px
+  .uu-brandbar-functions
+    height: $branbar-unit * 4.5
 
+
+#uu-brandbar-logo
+  display: inline-block
+  margin-top: $branbar-unit/2
+  margin-left: $branbar-unit
   img
-    height: 48px
-    width: 179px
-    +breakpoint(sm)
-      width: 149px
-      height: 40px
+    height: $branbar-unit * 2
+    //width: 179px
+
+
+#uu-brandbar-title
+  margin-top: $branbar-unit/2
+  display: inline-block
+
+  h1
+    color: $uu-title-color
+    font-size: 20px
+    line-height: $branbar-unit
+
 
 .brandbar-search
   line-height: 70px
